@@ -1,0 +1,21 @@
+{
+	"name": "e-commerce-site-template",
+	"version": "1.0.0",
+	"description": "Decoright website with SASS and BrowserSync setup",
+	"main": "index.js",
+	"scripts": {
+		"build": "sass src/sass/app.scss:src/css/styles.css --style=compressed",
+		"sass": "sass --watch src/sass/app.scss:src/css/styles.css",
+		"serve": "browser-sync start --server src --files 'src/css/*.css, src/**/*.html, src/js/*.js'",
+		"start": "npm-run-all --parallel sass serve",
+		"dev": "npm-run-all --parallel sass serve"
+	},
+	"devDependencies": {
+		"browser-sync": "^2.29.3",
+		"npm-run-all": "^4.1.5",
+		"sass": "^1.83.0"
+	},
+	"keywords": [],
+	"author": "Hasan Jackson",
+	"license": "ISC"
+}
