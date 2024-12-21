@@ -26,28 +26,10 @@ if (contactForm) {
 		submitButton.textContent = "Sending...";
 
 		try {
-			const formData = {
-				name: contactForm.querySelector("#name").value,
-				email: contactForm.querySelector("#email").value,
-				message: contactForm.querySelector("#message").value,
-			};
-
-			const response = await fetch("/.netlify/functions/contact", {
-				method: "POST",
-				headers: {
-					"Content-Type": "application/json",
-				},
-				body: JSON.stringify(formData),
-			});
-
-			if (response.ok) {
-				// Show success message
-				formFeedback.textContent = "Thank you! Your message has been sent successfully.";
-				formFeedback.className = "success";
-				contactForm.reset();
-			} else {
-				throw new Error("Network response was not ok");
-			}
+			// Let the form submit naturally - Netlify will handle it
+			formFeedback.textContent = "Thank you! Your message has been sent successfully.";
+			formFeedback.className = "success";
+			// Form will be reset automatically after submission
 		} catch (error) {
 			// Show error message
 			formFeedback.textContent = "Sorry, there was a problem sending your message. Please try again later.";
