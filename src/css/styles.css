@@ -199,7 +199,7 @@ summary {
 
 .nav-links ul li a {
   text-decoration: none;
-  color: #333;
+  color: #2d2d2d;
   transition: color 0.3s ease;
 }
 
@@ -214,7 +214,7 @@ summary {
 }
 
 .account-icons ul li a {
-  color: #333;
+  color: #2d2d2d;
   text-decoration: none;
 }
 
@@ -231,7 +231,7 @@ summary {
 }
 footer {
   padding: 10px 20px;
-  background-color: #333;
+  background-color: #2d2d2d;
   color: #fff;
   text-align: center;
 }
@@ -250,7 +250,7 @@ main {
 }
 
 .hamburger span {
-  background-color: #333;
+  background-color: #2d2d2d;
   display: inline-block;
   width: 25px;
   height: 2px;
@@ -298,7 +298,7 @@ main {
 }
 
 .mobile-nav a {
-  color: #333;
+  color: #2d2d2d;
   text-decoration: none;
   font-size: 1.2em;
 }
@@ -341,7 +341,7 @@ main {
 }
 .item h3 {
   margin: 0.5rem 0;
-  color: #333;
+  color: #2d2d2d;
   font-size: 1.25rem;
 }
 .item p {
@@ -413,7 +413,7 @@ body {
 }
 
 .contact-form button {
-  background-color: #333;
+  background-color: #2d2d2d;
   color: white;
   cursor: pointer;
 }
