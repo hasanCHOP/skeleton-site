@@ -18,7 +18,7 @@ async function loadItems() {
 			.map(
 				(price) => `
             <div class="item">
-                <img src="${price.product.images[0]}" alt="${price.product.name}">
+                <img src="${price.product.images[0]}" alt="${price.product.name}" loading="lazy" decoding="async">
                 <h3>${price.product.name}</h3>
                 <p>${price.product.description}</p>
                 <p class="price">$${(price.unit_amount / 100).toFixed(2)}</p>
