@@ -80,7 +80,7 @@ Retain the literal color notation already used; equivalent spellings are an exis
 
 ## Existing HTML inconsistencies to preserve or explicitly resolve
 
-- The home and services desktop menus order Products before Services. About, Blog, Contact, Gallery, and Products order Services before Products. All inner-page mobile menus order Services before Products, while the home mobile menu orders Products before Services.
+- The home, about, and services desktop menus order Products before Services. Blog, Contact, Gallery, and Products order Services before Products. All inner-page mobile menus order Services before Products, while the home mobile menu orders Products before Services.
 - Home links use root-relative `/`. Other links are relative to the current file; header logo and account links use placeholder `#` targets.
 - Home, About, Blog, Contact, and Gallery use the title `Document`; Products and Services use specific titles.
 - `src/index.html` starts with a `<!-- Codex test. -->` comment before the doctype; inner pages do not.
