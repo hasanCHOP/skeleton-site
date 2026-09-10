@@ -11,10 +11,17 @@
 }
 
 .main-header .logo a {
+	display: block;
 	text-decoration: none;
 	color: #fff;
 	font-size: 1.5rem;
 	font-weight: bold;
+}
+
+.main-header .logo img {
+	display: block;
+	width: 140px;
+	height: 40px;
 }
 
 .nav-links ul {
@@ -46,8 +53,15 @@
 }
 
 .account-icons ul li a {
+	display: block;
 	color: #2d2d2d;
 	text-decoration: none;
+}
+
+.account-icons svg {
+	display: block;
+	width: 1.125rem;
+	height: 1.125rem;
 }
 
 @media only screen and (max-width: 768px) {
