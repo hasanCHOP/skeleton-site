@@ -17,6 +17,7 @@ exports.handler = async (event) => {
 		const prices = await stripe.prices.list({
 			expand: ["data.product"],
 			active: true,
+			limit: 100,
 		});
 
 		// Filter by category from metadata
